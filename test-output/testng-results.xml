@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Assesment" duration-ms="24856" started-at="2021-04-15T20:55:54 IST" finished-at="2021-04-15T20:56:19 IST">
+    <groups>
+    </groups>
+    <test name="BankingApp Test" duration-ms="24856" started-at="2021-04-15T20:55:54 IST" finished-at="2021-04-15T20:56:19 IST">
+      <class name="com.Assesment.testCases.Testcase002">
+        <test-method status="PASS" signature="setup(java.lang.String)[pri:0, instance:com.Assesment.testCases.Testcase002@1f57539]" name="setup" is-config="true" duration-ms="6618" started-at="2021-04-15T20:55:54 IST" finished-at="2021-04-15T20:56:01 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="DDT(java.lang.String, java.lang.String)[pri:0, instance:com.Assesment.testCases.Testcase002@1f57539]" name="DDT" duration-ms="8969" started-at="2021-04-15T20:56:02 IST" data-provider="Data" finished-at="2021-04-15T20:56:11 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avijitrout.2010@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rout@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DDT -->
+        <test-method status="PASS" signature="DDT(java.lang.String, java.lang.String)[pri:0, instance:com.Assesment.testCases.Testcase002@1f57539]" name="DDT" duration-ms="3435" started-at="2021-04-15T20:56:11 IST" data-provider="Data" finished-at="2021-04-15T20:56:15 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[avijitrout.2010@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[rout@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DDT -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Assesment.testCases.Testcase002@1f57539]" name="teardown" is-config="true" duration-ms="4328" started-at="2021-04-15T20:56:15 IST" finished-at="2021-04-15T20:56:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.Assesment.testCases.Testcase002 -->
+    </test> <!-- BankingApp Test -->
+  </suite> <!-- Assesment -->
+</testng-results>
